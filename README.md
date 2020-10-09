@@ -3,5 +3,5 @@ Dotfiles for my Ubuntu installs.
 
 To use, 
 
-`cd $HOME && git clone https://github.com/appwiz/ubuntu-dotfiles.git .dotfiles && cd ~/.dotfiles && chmod +x ./install.sh && ./install.sh`
+`git clone https://github.com/appwiz/ubuntu-dotfiles.git $HOME/.dotfiles && chmod +x $HOME/.dotfiles/install.sh && $HOME./install.sh && source $HOME/.bashrc`
 
