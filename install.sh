@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # link ~/.bash-aliases to $REPO/bash-aliases
-ln -s ~/ubuntu-dotfiles/bash-aliases ~/.bash_aliases
+ln -s $HOME/.dotfiles/bash-aliases $HOME/.bash_aliases
 
 # reload .bashrc
-. ~/.bashrc
+. $HOME/.bashrc
